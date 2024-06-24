@@ -27,6 +27,10 @@
   border-radius: 15px;
 }
 
+.task-update {
+  width: 100%;
+}
+
 h3 {
   text-align: center;
   font-size: 25px;
@@ -40,6 +44,9 @@ h3 {
   font-size: 20px;
   color: white;
   border-radius: 8px;
+}
+.update-button {
+  background-color: purple;
 }
 
 .task-list {
