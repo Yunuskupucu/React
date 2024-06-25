@@ -38,6 +38,7 @@ function App() {
       title: updatedTitle,
       taskDesc: updatedTaskDesc,
     });
+
     const updatedTasks = tasks.map((task) => {
       if (task.id === id) {
         return { id, title: updatedTitle, taskDesc: updatedTaskDesc };
